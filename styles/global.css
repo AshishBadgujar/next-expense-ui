@@ -1,0 +1,48 @@
+.page {
+    width: 60% !important;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.drawer {
+    height: 90vh !important;
+}
+
+.drawer-content {
+    width: 60% !important;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    top: 95vh;
+    width: 60%;
+}
+
+.tab-content {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .page {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .drawer-content {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .footer {
+        width: 90vw;
+    }
+}
